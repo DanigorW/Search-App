@@ -1,0 +1,15 @@
+.img-style {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  
+    grid-auto-rows: 10px;
+    grid-gap: 0 10px;
+    
+}
+
+.img-style img {
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+}
+
+
